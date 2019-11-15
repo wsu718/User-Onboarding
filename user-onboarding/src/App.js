@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
-import Form from './components/Form'
+import FormikUserSignup from "./component/UserSignup"
 
 function App() {
   return (
-    <div>
-      <Form />
+    <div className="App">
+       <FormikUserSignup /> 
     </div>
   );
 }
